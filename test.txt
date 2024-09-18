@@ -1,0 +1,2 @@
+=EXEC("powershell -command ""Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/itsfoss/text-files/master/agatha.txt' -OutFile 'C:\\temp\\downloaded_text.txt'; Get-Content 'C:\\temp\\downloaded_text.txt' | Out-String""")
+=ALERT("Content has been downloaded.")
